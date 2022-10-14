@@ -15,4 +15,4 @@ for num in nums:
         nums_dict[num] = 1
     else:
         nums_dict[num] += 1
-print(sorted(nums_dict.items(), key=lambda t: t[1])[-1])
+print(sorted(nums_dict.items(), key=lambda t: t[1])[-1][0])
